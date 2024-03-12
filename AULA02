@@ -1,0 +1,71 @@
+public class Main {
+    public static void main(String args[]) {
+
+
+        System.out.println("Resolução 1");
+            System.out.println("estou utilizando a linguagem java");
+
+        System.out.println("Resolução 2");
+            int num = 2;
+            System.out.println("O nmero informado foi \n" + num);
+
+
+        System.out.println("Resolução 3");
+            int nota1 = 6;
+            int nota2 = 4;
+            int nota3 = 7;
+            int nota4 = 9;
+            float media = (nota1 + nota2 + nota3 + nota4) /4;
+
+            System.out.println("sua media é \n" + media);
+
+        System.out.println("Resolução 4");
+            int metro = 2;
+            int centimetro = metro *100;
+
+            System.out.println( metro + "\n metros convertido em centimetro é \n" + centimetro);
+
+        System.out.println("Resolução 5");
+            double raio = 5;
+            double area = raio * raio;
+            System.out.println("O valor da area é " + area);
+
+        System.out.println("Resolução 6");
+            int lado = 3;
+            double Area = (lado * lado);
+            System.out.println("a area do quadrado e: " + Area);
+
+
+        System.out.println("Resolução 7");
+            int salario_hora = 50;
+            int hora_trabalhada = 48;
+            int salario = salario_hora * hora_trabalhada;
+            System.out.println("seu salario e:" + salario);
+
+        System.out.println("Resolução 8");
+            double grau_f = 10;
+            double grau_c = 28;
+
+            double grau_convertido  = 5 * ((grau_f-32) / 9);
+        System.out.println("Conversao Fahrenheit em Celsius e:" + grau_convertido);
+
+        System.out.println("Resolução 9");
+            int num_1 = 2;
+            int num_2 = 5;
+            double num_3 = 5.5;
+            double produto = (num_1 *2) + (num_2 / 2);
+            double resposta_b = (num_1 *3) + num_3;
+            double resposta_c = num_3 * num_3 * num_3;
+        System.out.println("a) o produto do dobro do primeiro com metade do segundo" + produto);
+        System.out.println("b) a soma do triplo do primeiro com o terceiro" + resposta_b);
+        System.out.println("c )o terceiro elevado ao cubo." + resposta_c);
+
+        System.out.println("Resolução 10");
+        double altura = 1.68;
+        double peso_ideal = (72.7*altura) - 58;
+        System.out.println("Peso ideal e:" + peso_ideal);
+
+
+    }
+
+}
