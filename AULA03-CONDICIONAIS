@@ -1,0 +1,17 @@
+public class Aula3_Condicional {
+    public static void main(String args[]) {
+        int num = 5;
+
+        System.out.println("atividade 1");
+        if (num <0){
+            System.out.println("numero negativo");
+        }else if (num ==0 ){
+            System.out.println("numero e zero");
+        }else {
+            System.out.println("numero positivo");
+        }
+
+        }
+
+
+    }
