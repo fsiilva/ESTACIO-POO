@@ -1,4 +1,4 @@
-Atividade 04 - 
+ATIVIDADE - 04
 import java.util.Scanner;
 public class Atividade4 {
     public static void main(String[] args) {
@@ -20,7 +20,7 @@ public class Atividade4 {
 
     }
 
-Resposta Atividade 05
+ATIVIDADE - 05
 import java.util.Scanner;
 
 public class atividade5 {
@@ -53,3 +53,30 @@ public class atividade5 {
         }
     }
         }
+
+ATIVIDADE - 06
+import java.util.Scanner;
+public class jogoNumSecreto {
+    public static void main(String[] args) {
+        int numero;
+        int numeroSecreto = 10;
+        Scanner numeroDigitado = new Scanner(System.in);
+
+        System.out.println("Bem vindo ao jogo do numero secreto, digite um numero para tentar adivinhar");
+        numero = numeroDigitado.nextInt();
+
+        while (numero != numeroSecreto) {
+            if (numero > numeroSecreto) {
+                System.out.println("O numero secreto eh menor");
+                
+            }else if (numero < numeroSecreto) {
+                System.out.println("Numero secreto eh maior");
+            }
+            System.out.println("Voce errou, digite um numero para tentar adivinhar");
+            numero = numeroDigitado.nextInt();
+
+        }
+        
+            System.out.println("Voce acertou");
+        }
+    }
