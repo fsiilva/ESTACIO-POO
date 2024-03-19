@@ -201,3 +201,21 @@ public class loguin {
         }
     }
 }
+
+ATIVIDAE - 11
+import java.util.Scanner;
+public class parOmpar {
+    public static void main(String[] args) {
+        int numero;
+        Scanner numeroScanner = new Scanner(System.in);
+
+        System.out.println("Digite um numero");
+        numero = numeroScanner.nextInt();
+
+        if (numero % 2 == 0) {
+            System.out.println("Numero eh par");
+        }else {
+            System.out.println("Numero eh impar");
+        }
+    }
+}
