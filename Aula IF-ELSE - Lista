@@ -138,3 +138,39 @@ public class jogoFotebol {
         }
     }
 }
+
+ATIVIDADE - 09
+import java.util.Scanner;
+public class media {
+    public static void main(String[] args) {
+        String nome;
+        double nota01;
+        double nota02;
+
+        Scanner nomeScanner = new Scanner(System.in);
+        
+        Scanner nota01Scanner = new Scanner(System.in);
+        Scanner nota0202Scanner = new Scanner(System.in);
+
+        System.out.println("Digite seu nome e suas duas notas");
+        nome = nomeScanner.next();
+        nota01 = nota01Scanner.nextDouble();
+        nota02 = nota0202Scanner.nextDouble();
+
+        Double media = (nota01 + nota02) / 2;
+
+        if (media > 7) {
+            System.out.println( nome + "Aprovado com conceito A");
+        }else if (media > 5 && media < 7) {
+            System.out.println(nome + "Aprovado com conceito B");
+        }else if (media > 4 && media < 5) {
+            System.out.println(nome + "Aluno fará avaliação final");
+        }else if (media > 4) {
+            System.out.println(nome + "Reprovado :/");
+        }
+
+
+
+    }
+}
+
