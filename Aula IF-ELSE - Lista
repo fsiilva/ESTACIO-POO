@@ -105,3 +105,36 @@ public class terMometro {
         }
     }
 }
+
+
+ATIVIDADE - 08
+import java.util.Scanner;
+public class jogoFotebol {
+    public static void main(String[] args) {
+        String time01;
+        String time02;
+        int goltime01;
+        int goltime02;
+
+        Scanner time01Scanner = new Scanner(System.in);
+        Scanner time02Scanner = new Scanner(System.in);
+        Scanner goltime01Scanner = new Scanner(System.in);
+        Scanner goltime02Scanner = new Scanner(System.in);
+
+        System.out.println("Digite o nome do primeiro time e o numero de gols");
+        time01 = time01Scanner.next();
+        goltime01 = goltime01Scanner.nextInt();
+
+        System.out.println("Digite o nome do segundo time e o numero de gols");
+        time02 = time02Scanner.next();
+        goltime02 = goltime02Scanner.nextInt();
+
+        if (goltime01 > goltime02) {
+            System.out.println("Quem venceu foi o;" + time01);
+        }else if (goltime02 > goltime01) {
+            System.out.println("Quem venceu foi o;" + time02);
+        }else if (goltime01 == goltime02) {
+            System.out.println("O jogo esta empate");
+        }
+    }
+}
