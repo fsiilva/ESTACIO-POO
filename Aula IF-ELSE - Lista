@@ -80,3 +80,28 @@ public class jogoNumSecreto {
             System.out.println("Voce acertou");
         }
     }
+
+
+ATIVIDADE - 07
+import java.util.Scanner;
+public class terMometro {
+    public static void main(String[] args) {
+        double  temperatura;
+        Scanner temperaturaDigitado = new Scanner(System.in);
+
+        System.out.println("Informe a temperatura atual");
+        temperatura = temperaturaDigitado.nextDouble();
+
+        if (temperatura <= 37) {
+            System.out.println("Temperatura normal");
+        }else if (temperatura > 37 && temperatura <= 37.8) {
+            System.out.println("Voce esta febril");
+        }else if (temperatura > 37.8 && temperatura <= 38.5) {
+            System.out.println("Voce esta com febre leve");
+        }else if (temperatura > 38.5 && temperatura <= 39.4) {
+            System.out.println("Voce esta com febre moderada");
+        }else if (temperatura >= 39.5) {
+            System.out.println("Voce esta com febre grave");
+        }
+    }
+}
