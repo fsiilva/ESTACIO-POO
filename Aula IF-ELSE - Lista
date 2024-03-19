@@ -1,0 +1,21 @@
+Atividade 04 - 
+import java.util.Scanner;
+public class Atividade4 {
+    public static void main(String[] args) {
+        int velocidade;
+        Scanner velocidadeDigitada = new Scanner(System.in);
+        System.out.println("Digite a Velocidade do carro");
+        velocidade = velocidadeDigitada.nextInt();
+
+        if (velocidade <= 60) {
+            System.out.println("Voce esta na velocidade permitida");
+        }else if (velocidade > 60 && velocidade < 80) {
+            System.out.println("Voce esta em alta velocidade");
+        }else if (velocidade >= 80 && velocidade < 120) {
+            System.out.println("Voce muito rapido");
+            } else if (velocidade >= 120){
+                System.out.println("Voce esta voando");
+            }
+        }
+
+    }
