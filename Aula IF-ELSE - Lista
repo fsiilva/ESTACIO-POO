@@ -174,3 +174,30 @@ public class media {
     }
 }
 
+ATIVIDADE - 10
+import java.util.Scanner;
+
+import javax.print.DocFlavor.STRING;
+public class loguin {
+    public static void main(String[] args) {
+        String usuario;
+        String senha;
+        
+        Scanner usuarioScanner = new Scanner(System.in);
+        Scanner senhaScanner = new Scanner(System.in);
+
+        
+
+        System.out.println("Digite o usuario:");
+        usuario = usuarioScanner.nextLine();
+
+        System.out.println("Digite o senha:");
+        senha = senhaScanner.nextLine();
+
+        if (usuario == "ESTACIO" && senha == "centro") {
+            System.out.println("Loguin efetuado com sucesso");
+        }else {
+            System.out.println("Acesso Negado");
+        }
+    }
+}
